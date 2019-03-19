@@ -12,7 +12,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    border-bottom: 2.5px solid black;
+    border-bottom: 2.5px solid hotpink;
 }
 
 .header-child {
@@ -30,4 +30,20 @@ button {
     margin: 5px;
     background: black;
     color: white;
+}
+
+#gif-view {
+    width: 50%;
+    margin: auto;
+    border-right: 0.5px solid lightslategrey;
+    border-left: 0.5px solid lightslategrey;
+}
+
+.gif-container {
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background: turquoise;
+    color: hotpink;
+    border: 1px solid hotpink;
 }
