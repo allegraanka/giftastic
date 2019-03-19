@@ -1,0 +1,33 @@
+body {
+    width: 85%;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: 2.5px solid black;
+}
+
+.header-child {
+    flex:1;
+    margin: 20px;
+}
+
+#button-list-container {
+    padding: 5px;
+    margin: 20px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    background: black;
+    color: white;
+}

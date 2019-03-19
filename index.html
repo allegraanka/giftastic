@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link href="assets/css/reset.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-child">
+                <h1>GifTastic</h1>
+            </div>
+
+            <!-- form input will create a new button on the page dynamically -->
+            <div class="header-child">
+                <form id="topic-form">
+                    <label for="topic-input">Add your own gif-search button</label>
+                    <input type="text" id="topic-input">
+                    <input type="submit" id="add-topic" value="Add topic">
+                </form>
+            </div>
+        </div>
+
+        <div id="button-list-container">
+            <ul id="button-list">
+                <!-- new buttons will render here dynamically -->
+            </ul>
+        </div>
+
+        <div id="gif-view">
+            <!-- gifs will render here -->
+        </div>
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/script.js"></script>
+    </body>
+</html>
